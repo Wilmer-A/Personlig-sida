@@ -1,5 +1,6 @@
 body {
   font-family: "Exo 2";
+  margin: 0px;
 }
 
 header {
@@ -9,11 +10,15 @@ header {
 
   padding: 15px;
   margin: 0px;
-  background-color: rgb(98, 98, 172);
+  background-color: rgb(155, 155, 155);
   text-align: left;
 }
 
-img {
+main {
+  margin: 10px;
+}
+
+#RaceCalendar img {
   border: 2px solid black;
 }
 
@@ -47,7 +52,7 @@ footer {
   text-align: center;
 }
 
-.topics {
+nav {
   display: flex;
   justify-content: flex-start;
 }
