@@ -17,10 +17,6 @@ main {
   margin: 30px;
 }
 
-#RaceCalendar img {
-  border: 2px solid black;
-}
-
 h1 {
   color: red;
   text-decoration: overline white;
@@ -45,6 +41,7 @@ a {
 
 a:hover {
   color: red;
+  font-size: 18px;
 }
 
 footer {
@@ -60,4 +57,12 @@ footer {
 nav {
   display: flex;
   justify-content: flex-start;
+}
+
+#RaceCalendar img {
+  border: 2px solid black;
+}
+
+img.aboutPageImage {
+  width: 100%;
 }
